@@ -1,20 +1,22 @@
-[2026-10-26T06:48:09.840Z] build MangaFire Legacy (alpha) v0.1 (alpha)
-[2026-10-26T06:48:09.855Z] [chrome] staging extension...
-[2026-10-26T06:48:10.271Z] [chrome] morph.js: 92934 to 62873 bytes (minified, comments removed)
-[2026-10-26T06:48:10.317Z] [chrome] bridge.js: 5468 to 1959 bytes (minified, comments removed)
-[2026-10-26T06:48:10.348Z] [chrome] popup.js: 1015 to 672 bytes (minified, comments removed)
-[2026-10-26T06:48:10.408Z] [chrome] skin/skin.css: 113786 to 77180 bytes (minified)
-[2026-10-26T06:48:11.231Z] [chrome] popup.html: 8094 to 5571 bytes (minified)
-[2026-10-26T06:48:11.234Z] [chrome] manifest.json: MangaFire Legacy (alpha) v0.1 (minified)
-[2026-10-26T06:48:11.236Z] [firefox] staging extension...
-[2026-10-26T06:48:11.313Z] [firefox] morph.js: 92934 to 62873 bytes (minified, comments removed)
-[2026-10-26T06:48:11.339Z] [firefox] bridge.js: 5468 to 1959 bytes (minified, comments removed)
-[2026-10-26T06:48:11.358Z] [firefox] popup.js: 1015 to 672 bytes (minified, comments removed)
-[2026-10-26T06:48:11.384Z] [firefox] skin/skin.css: 113786 to 77180 bytes (minified)
-[2026-10-26T06:48:11.402Z] [firefox] popup.html: 8094 to 5571 bytes (minified)
-[2026-10-26T06:48:11.418Z] [firefox] manifest.json: MangaFire Legacy (alpha) v0.1 (minified)
-[2026-10-26T06:48:11.596Z] [chrome] ZIP written for Load unpacked (242639 bytes)
-[2026-10-26T06:48:13.395Z] [chrome] CRX3 packed by msedge.exe (252438 bytes, id bc6f1122a49b726d3d9f40dddb227504)
-[2026-10-26T06:48:13.617Z] [firefox] XPI written (242322 bytes)
-[2026-10-26T06:48:13.636Z] README.md written
-[2026-10-26T06:48:13.646Z] release folder verified: packages only, no unpacked extension files
+[2026-10-26T06:57:36.589Z] build MangaFire Legacy (alpha) v0.1 (alpha)
+[2026-10-26T06:57:36.601Z] [chrome] staging extension...
+[2026-10-26T06:57:41.319Z] [chrome] morph.js: 92975 to 187493 bytes (obfuscated, comments removed)
+[2026-10-26T06:57:41.677Z] [chrome] bridge.js: 5578 to 9265 bytes (obfuscated, comments removed)
+[2026-10-26T06:57:42.193Z] [chrome] background.js: 809 to 3612 bytes (obfuscated, comments removed)
+[2026-10-26T06:57:42.673Z] [chrome] popup.js: 1015 to 4935 bytes (obfuscated, comments removed)
+[2026-10-26T06:57:45.725Z] [chrome] skin/skin.css: 113786 to 77180 bytes (minified)
+[2026-10-26T06:58:10.408Z] [chrome] popup.html: 8094 to 5571 bytes (minified)
+[2026-10-26T06:58:10.423Z] [chrome] manifest.json: MangaFire Legacy (alpha) v0.1 (minified)
+[2026-10-26T06:58:10.426Z] [firefox] staging extension...
+[2026-10-26T06:58:17.609Z] [firefox] morph.js: 92975 to 187504 bytes (obfuscated, comments removed)
+[2026-10-26T06:58:18.030Z] [firefox] bridge.js: 5578 to 9127 bytes (obfuscated, comments removed)
+[2026-10-26T06:58:18.579Z] [firefox] background.js: 809 to 3869 bytes (obfuscated, comments removed)
+[2026-10-26T06:58:19.020Z] [firefox] popup.js: 1015 to 5069 bytes (obfuscated, comments removed)
+[2026-10-26T06:58:19.086Z] [firefox] skin/skin.css: 113786 to 77180 bytes (minified)
+[2026-10-26T06:58:19.128Z] [firefox] popup.html: 8094 to 5571 bytes (minified)
+[2026-10-26T06:58:19.137Z] [firefox] manifest.json: MangaFire Legacy (alpha) v0.1 (minified)
+[2026-10-26T06:58:19.489Z] [chrome] ZIP written for Load unpacked (294639 bytes)
+[2026-10-26T06:58:20.909Z] [chrome] CRX3 packed by msedge.exe (304576 bytes, id bc6f1122a49b726d3d9f40dddb227504)
+[2026-10-26T06:58:21.343Z] [firefox] XPI written (294030 bytes)
+[2026-10-26T06:58:21.365Z] README.md written
+[2026-10-26T06:58:21.371Z] release folder verified: packages only, no unpacked extension files

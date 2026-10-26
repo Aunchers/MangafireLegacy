@@ -66,6 +66,21 @@ THIS ONLY WORKS ON FIREFOX NIGHTLY FOR THE TIME BEING. On **Firefox Nightly**,
 open **Settings > About Firefox Nightly**, tap the logo five times, then
 **Install extension from file** and pick the signed `.xpi`.
 
+## Windows Defender
+
+Microsoft Defender flags these packages as `Trojan:Script/Ulthar.A!ml`. That
+is a false positive: it is a behaviour heuristic that reacts to the
+page-side request bridge, and the packages contain nothing but the extension
+itself. Defender blocks the download and quarantines the unpacked folder, so
+on Windows:
+
+1. Allow the file when Defender blocks the download (**More info > Keep
+   anyway** in the browser).
+2. Turn Defender's **Real-time protection** off while you unzip the package
+   and load it, otherwise the folder is quarantined mid-install.
+3. Turn real-time protection back on once the extension is loaded. The
+   installed copy is not scanned as a download, so it keeps working.
+
 ## Privacy
 
 - No ads, no analytics, no remote code, no third-party requests.
