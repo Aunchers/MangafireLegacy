@@ -1,7 +1,7 @@
 <h1 align="center">MangaFire Legacy UI (V2)</h1>
 
 <p align="center">
-  <img alt="version" src="https://img.shields.io/badge/version-0.1-alpha-3c8bc6">
+  <img alt="version" src="https://img.shields.io/badge/version-0.1--alpha-3c8bc6">
   <img alt="chrome" src="https://img.shields.io/badge/Chrome-Manifest%20V3-4285F4">
   <img alt="firefox" src="https://img.shields.io/badge/Firefox-128%2B-FF7139">
 </p>
@@ -60,12 +60,11 @@ permanently. Supported routes:
 3. Publish the `.xpi` on addons.mozilla.org as an unlisted add-on and install
    it from the generated link.
 
-### Firefox Nightly for Android
+### Firefox for Android
 
-   On **Firefox Nightly** you can also open **Settings > About Firefox
-   Nightly**, tap the logo five times, then **Install extension from file**
-   and pick the signed `.xpi`.
-
+THIS ONLY WORKS ON FIREFOX NIGHTLY FOR THE TIME BEING. On **Firefox Nightly**,
+open **Settings > About Firefox Nightly**, tap the logo five times, then
+**Install extension from file** and pick the signed `.xpi`.
 
 ## Privacy
 
