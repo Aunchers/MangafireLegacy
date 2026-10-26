@@ -29,12 +29,21 @@
 
 ### Chrome, Edge, Brave and Opera (desktop)
 
-1. Open `chrome://extensions` and switch on **Developer mode**.
-2. Drag `Mangafire_Legacy.crx` onto the page and confirm.
+Dragging an off-store `.crx` into `chrome://extensions` fails with
+`CRX_REQUIRED_PROOF_MISSING`. That error is not about the package format: it
+means Chrome wants a CRX signed by the Chrome Web Store, and no flag relaxes
+that on a normal Chrome, Edge or Brave install. Load the same build unpacked
+instead:
 
-Chrome and Edge can refuse an off-store `.crx` file on Windows and macOS. If
-that happens, unpack `Mangafire_Legacy.crx` with any zip tool (7-Zip, WinRAR,
-`unzip`), click **Load unpacked**, and select the unpacked folder.
+1. Unzip `Mangafire_Legacy.zip` into a folder you will keep. Moving the
+   folder later means loading it again.
+2. Open `chrome://extensions` (or `edge://extensions`,
+   `brave://extensions`) and switch on **Developer mode**.
+3. Click **Load unpacked** and select the folder that holds `manifest.json`.
+   Chrome may warn that the extension is not from the Web Store; keep it.
+
+`Mangafire_Legacy.crx` is a valid CRX3 signed by this project. It is kept
+for managed installs, where a policy can allow a self-signed CRX.
 
 ### Firefox (desktop)
 
@@ -51,39 +60,18 @@ permanently. Supported routes:
 3. Publish the `.xpi` on addons.mozilla.org as an unlisted add-on and install
    it from the generated link.
 
-### Firefox for Android
+### Firefox Nightly for Android
 
-Firefox for Android only installs extensions that come from addons.mozilla.org:
-
-1. Publish or sign the `.xpi` on AMO (an unlisted listing works).
-2. On the phone, open the AMO listing link and tap **Add to Firefox**.
-3. On **Firefox Nightly** you can also open **Settings > About Firefox
+   On **Firefox Nightly** you can also open **Settings > About Firefox
    Nightly**, tap the logo five times, then **Install extension from file**
    and pick the signed `.xpi`.
 
-## Package contents
-
-This folder contains the installable release packages and the build record
-only. Extension source files are not included.
-
-```
-Mangafire_Legacy.crx   Chrome, Edge, Brave and Opera package (Manifest V3)
-Mangafire_Legacy.xpi   Firefox 128 and newer package (Manifest V3)
-README.md              this file
-build.log              timestamped build record
-```
-
-Every script, stylesheet and page inside both packages is bundled, minified
-and obfuscated with comments removed. Fonts, icons and images are shipped
-as-is.
 
 ## Privacy
 
 - No ads, no analytics, no remote code, no third-party requests.
 - All data comes from MangaFire's own same-origin `/api` endpoints, through the
   page's own session.
-- The only stored data is local: the on/off switch, a genre list cache and a
-  chapter-row cache used to paint the home cards.
 
 ## Notes
 
