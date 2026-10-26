@@ -52,12 +52,8 @@ permanently. Supported routes:
    it from the generated link.
 
 ### Firefox for Android
-
-Firefox for Android only installs extensions that come from addons.mozilla.org:
-
-1. Publish or sign the `.xpi` on AMO (an unlisted listing works).
-2. On the phone, open the AMO listing link and tap **Add to Firefox**.
-3. On **Firefox Nightly** you can also open **Settings > About Firefox
+THIS ONLY WORKS ON FIREFOX NIGHTLY FOR THE TIME BEING.
+   On **Firefox Nightly**, open **Settings > About Firefox
    Nightly**, tap the logo five times, then **Install extension from file**
    and pick the signed `.xpi`.
 
