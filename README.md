@@ -1,7 +1,7 @@
 <h1 align="center">MangaFire Legacy UI (V2)</h1>
 
 <p align="center">
-  <img alt="version" src="https://img.shields.io/badge/version-0.1-alpha-3c8bc6">
+  <img alt="version" src="https://img.shields.io/badge/version-0.1--alpha-3c8bc6">
   <img alt="chrome" src="https://img.shields.io/badge/Chrome-Manifest%20V3-4285F4">
   <img alt="firefox" src="https://img.shields.io/badge/Firefox-128%2B-FF7139">
 </p>
