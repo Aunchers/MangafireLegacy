@@ -61,29 +61,11 @@ Firefox for Android only installs extensions that come from addons.mozilla.org:
    Nightly**, tap the logo five times, then **Install extension from file**
    and pick the signed `.xpi`.
 
-## Package contents
-
-This folder contains the installable release packages and the build record
-only. Extension source files are not included.
-
-```
-Mangafire_Legacy.crx   Chrome, Edge, Brave and Opera package (Manifest V3)
-Mangafire_Legacy.xpi   Firefox 128 and newer package (Manifest V3)
-README.md              this file
-build.log              timestamped build record
-```
-
-Every script, stylesheet and page inside both packages is bundled, minified
-and obfuscated with comments removed. Fonts, icons and images are shipped
-as-is.
-
 ## Privacy
 
 - No ads, no analytics, no remote code, no third-party requests.
 - All data comes from MangaFire's own same-origin `/api` endpoints, through the
   page's own session.
-- The only stored data is local: the on/off switch, a genre list cache and a
-  chapter-row cache used to paint the home cards.
 
 ## Notes
 
